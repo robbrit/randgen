@@ -1,0 +1,13 @@
+{
+  "name": "randgen",
+  "version" : "0.0.1",
+  "author": "Rob Britton <rob@robbritton.com>",
+  "description": "Node.js package for generating different kinds of random numbers.",
+  "dependencies" : {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:robbrit/randgen.git"
+  },
+  "license": "MIT"
+}
