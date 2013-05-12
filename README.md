@@ -27,13 +27,17 @@ Chi-Squared:
 
     num = rchisq(4);   // 4 degrees of freedom
 
-Others: `runif`, `rpoisson`, `rcauchy`
+Random element from a list:
+
+    num = rlist([1, 2, 3, 4]);
+
+Others: `runif`, `rpoisson`, `rcauchy`, `rbernoulli`
 
 You can also generate vectors of random numbers:
 
     nums = rvnorm(100); // generate 100 standard normal values
 
-Others: `rvunif`, `rvchisq`, `rvpoisson`, `rvcauchy`
+Others: `rvunif`, `rvchisq`, `rvpoisson`, `rvcauchy`, `rvlist`, `rvbernoulli`
 
 It also includes a handy `histogram()` function to convert an array of numbers
 into a set of bins:
